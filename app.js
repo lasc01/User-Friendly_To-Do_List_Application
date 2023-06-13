@@ -8,7 +8,7 @@ const date = require(__dirname + "/date.js")
 
 const app = express();
 
-const port = 3000; 
+const port = process.env.PORT; 
 
 let myLists = [];
 
@@ -157,6 +157,6 @@ app.get("/about", function(req, res){
  });
 		
 
-app.listen(port, function(){
+app.listen(port || 3000, function(){
     console.log("Server is running on port 3000")
 })
