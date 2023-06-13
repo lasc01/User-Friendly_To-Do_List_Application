@@ -1,0 +1,31 @@
+{
+  "name": "user-friendly_to-do_list_application",
+  "version": "1.0.0",
+  "description": "todo list app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/lasc01/User-Friendly_To-Do_List_Application.git"
+  },
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "author": "lasc01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lasc01/User-Friendly_To-Do_List_Application/issues"
+  },
+  "homepage": "https://github.com/lasc01/User-Friendly_To-Do_List_Application#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {}
+}

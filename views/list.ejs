@@ -1,0 +1,28 @@
+<%- include ("partials/header") -%>
+
+    <div class="box" id="heading"> 
+        <% if (todayDate === "Wednesday"){ %>
+            <h1 style="color: rgb(240, 252, 207);"> <%= todayDate %></h1>
+            <% } else{ %>
+            <h1 style="color: rgb(255, 255, 255);"> <%= todayDate %></h1>
+            <% } %>
+        
+    </div>
+    
+    <div class="box">
+            <% for (let x = 0; x < addItem.length; x++) { %>
+            <div class="item">
+                <input type="checkbox" name="" id="">
+                <p><%= addItem[x] %></p>
+            </div> 
+            <% } %>
+                 
+     
+        <form class="item" action="/" method="post">
+            <input type="text" name="addList" id="plusOne" placeholder="Add Task" autocomplete="off">
+            <button type="submit" name="list" value= <%= todayDate %> >+</button>
+        </form>
+ 
+    </div>
+   
+    <%- include ("partials/footer") -%>
