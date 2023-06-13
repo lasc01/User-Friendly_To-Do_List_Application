@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"  # Specify your build command if needed
+  publish = "dist"           # Specify the directory where your Express.js app is built
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
