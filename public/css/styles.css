@@ -1,5 +1,4 @@
 html {
-  /* background-color: #d1faf4; */
   background-image: -webkit-linear-gradient(40deg, #67b943 6%,#f3f7cb 5%);
   min-height: 100%;
   font-family: 'helvetica neue'; 
@@ -176,7 +175,6 @@ h1{
     right: 18%;
 }
 
-/* stacking order */
 
 
 /* features section */
@@ -196,7 +194,6 @@ h1{
 .features-1{
     text-align: center;
     margin: auto;
-    /* width: 342px; */
 } 
 
 .features-1 i{
