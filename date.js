@@ -1,5 +1,4 @@
 // cut from app.js to generate date
-
 module.exports = getDate;
 
 function getDate(){
