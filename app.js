@@ -47,8 +47,12 @@ app.get("/", function(req, res){
 
 app.get("/list", function(req, res){
 
+// refectoring the code by exporting from date.js
+
     let day = date()
 
+// Weathermap api to serve weather location of any city
+	
     const apikey = "a6f054d979f364e4079b1ad144da3bfa"
 
     const url ="https://api.openweathermap.org/data/2.5/weather?q=lagos&units=metric&appid=" + apikey + "#"
@@ -75,6 +79,8 @@ app.get("/list", function(req, res){
 app.post("/", function(req,res){
 
     let myList = req.body.addList;
+
+// Conditional statement to take user to different web app(work & click here)
 
     if(req.body.list === "work"){
         workLists.push(myList);
